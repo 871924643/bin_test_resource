@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com" 
   s.platform     = :ios, "9.0"
   s.source           = { :git => "https://github.com/871924643/bin_test_resource.git", :tag => s.version.to_s }
-  s.source_files  = "bin_test_resource/**/*.{h,m}"
+  s.source_files  = "bin_test_resource/**/*.{h,m,swift}"
   s.public_header_files = "bin_test_resource/**/*.h"  #工程需要暴露出来的头文
   
 
